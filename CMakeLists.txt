@@ -59,6 +59,7 @@ get_directory_property(hasParent PARENT_DIRECTORY)
 if(hasParent)
   set(GST_RTSP_SERVER_INCLUDE_DIRS
 
+    "${CMAKE_CURRENT_LIST_DIR}/gst-rtsp-server"
     "${GLIB_INCLUDE_DIRS}"
     "${GSTREAMER_INCLUDE_DIRS}"
     "${GSTREAMER_BASE_INCLUDE_DIRS}"
