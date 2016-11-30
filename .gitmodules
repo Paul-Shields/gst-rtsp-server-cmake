@@ -1,0 +1,3 @@
+[submodule "gst-rtsp-server"]
+	path = gst-rtsp-server
+	url = https://github.com/GStreamer/gst-rtsp-server.git
